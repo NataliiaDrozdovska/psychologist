@@ -1305,3 +1305,11 @@ section {
   text-align: center;
   background-color: var(--beige-p);
 }
+
+.contacts .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
