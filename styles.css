@@ -180,22 +180,6 @@ h1 span {
   color: var(--beige-p);
 }
 
-.nav-list li a::after {
-  position: absolute;
-  content: "";
-  width: 50px;
-  height: 60px;
-  background-image: url(./images/line.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  right: -43px;
-  top: -13px;
-}
-
-.nav-list li:last-child a::after {
-  display: none;
-}
-
 .nav-list li a:hover {
   transform: translateX(8px);
   color: var(--green);
