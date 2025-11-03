@@ -770,7 +770,6 @@ section {
 .certs-slide img {
   width: 100%;
   height: 180%;
-  object-fit: cover;
   display: block;
   border-radius: 18px;
   background: var(--beige);
